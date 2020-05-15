@@ -1,0 +1,18 @@
+/* html{
+  background-color: aqua;
+  color: black; */
+
+h1{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: black;
+}
+.cover{
+  background-image: url("../images/pizza1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  }
+  
