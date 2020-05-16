@@ -3,12 +3,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  /* overflow: hidden; */
+  overflow: hidden;
   height: 90vh;
   /* padding-bottom: 10%; */
 }
 h1{
-  color: orange;
+  color: deepskyblue;
+  padding-top: 10%;
 }
 .navi {
   float: right;
