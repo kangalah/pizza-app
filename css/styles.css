@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 90vh;
   /* padding-bottom: 10%; */
 }
@@ -112,7 +112,7 @@ figcaption {
 }
 
 .contacts {
-  background-image: url("https://thumbs.dreamstime.com/b/pizza-background-advertising-website-pizza-pieces-moiety-pizza-italian-food-pizza-vector-illustration-print-web-112788362.jpg");
+  background-image: url("https://unblast.com/wp-content/uploads/2018/12/Wood-Pattern-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
