@@ -1,11 +1,176 @@
-body{
+.div_1{
   background-image: url("../images/pizzabg.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   overflow: hidden;
+  height: 100vh;
 }
 h1{
-  color: aquamarine;
+  color: darkturquoise;
 }
-  
+.navi {
+  float: right;
+}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #ffffff;
+}
+ /* .section{
+  display: none;
+}  */
+/* .div_1{
+  width: 99%;
+  justify-content: center;
+  height: 625px;
+  background-image: url("../images/pizza1.jpg");
+  background-size: 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  overflow:hidden;
+  z-index: 1;
+  top: 0px;
+  left: 10px;
+  right: 10px;
+  display: none;
+  opacity: 0.9; */
+
+.div_1 .btn_1{
+  margin-top: 90px;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 33px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: darkturquoise;
+  background-size: 300%;
+  color: orangered;
+  border: 1px solid black;
+  /* display: none; */
+}
+.div_1 .btn_1:hover{
+  background-position: right;
+  cursor: pointer;
+  color: black;
+}
+.exc {
+  color: yellow;
+}
+
+#piz-pap {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+  font-weight: normal;
+  color: darkorange;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.h-buttons {
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.h-buttons button {
+  border-radius: 40px;
+  color: black;
+}
+
+.menu-btn {
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #000;
+}
+.karibu-img {
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-bottom: 130px;
+  height: 400px;
+  width: 400px;
+}
+
+.welcome {
+  padding-top: 30px;
+}
+
+/* .box{
+  width: 900px;
+  height: 400px;
+  padding-left: 25%;
+  top:200px;
+  left: 200px;
+  opacity: 0.8;
+  display: none;
+} */
+/* .box .text{
+  width: 350px;
+  height: 350px;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  float: left;
+  display: block;
+  padding-left: 20px;
+  color: orange;
+  font-weight: lighter;
+  text-shadow: 0.5px 0.5px #fdfefe;
+  border-radius: 15px 0px 0px 15px;
+border: 2px solid orange;
+border-right: none;
+
+} */
+/* .box .image{
+  width: 400px;
+  height: 350px;
+  background-image: url("../images/pizza3.png");
+  background-size: cover;
+  background-position: left center;
+  float: left;
+  border-radius: 0px 15px 15px 0px;
+  border: 2px solid orange;
+  border-left: none;
+  box-shadow: 0px 15px 25px rgba(0,0,0,5);
+} */
+ .btn{
+  padding: 12px 30px;
+  border-radius: 12px;
+  background-color: orange;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 22px;
+  width: 200px;
+  opacity: 0.85;
+} 
+.btn:hover{
+  opacity: 1;
+  border: 1.5px solid black;
+}
+.pizza{
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 3px 3px black;
+}
+.harper{
+  text-align: center;
+  font-size: 55px;
+} 
