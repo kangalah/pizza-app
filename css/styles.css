@@ -4,10 +4,11 @@
   background-repeat: no-repeat;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   overflow: hidden;
-  height: 100vh;
+  height: 90vh;
+  /* padding-bottom: 10%; */
 }
 h1{
-  color: darkturquoise;
+  color: orange;
 }
 .navi {
   float: right;
@@ -26,27 +27,7 @@ body {
   overflow-x: hidden;
   color: #ffffff;
 }
- /* .section{
-  display: none;
-}  */
-/* .div_1{
-  width: 99%;
-  justify-content: center;
-  height: 625px;
-  background-image: url("../images/pizza1.jpg");
-  background-size: 100%;
-  background-position: left center;
-  background-repeat: no-repeat;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  position: absolute;
-  overflow:hidden;
-  z-index: 1;
-  top: 0px;
-  left: 10px;
-  right: 10px;
-  display: none;
-  opacity: 0.9; */
+ 
 
 .div_1 .btn_1{
   margin-top: 90px;
@@ -55,11 +36,10 @@ body {
   border-radius: 50px;
   font-size: 33px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background: darkturquoise;
+  background: orange;
   background-size: 300%;
-  color: orangered;
-  border: 1px solid black;
-  /* display: none; */
+  color: black;
+  border: 2px solid black;
 }
 .div_1 .btn_1:hover{
   background-position: right;
@@ -67,7 +47,7 @@ body {
   color: black;
 }
 .exc {
-  color: yellow;
+  color: gold;
 }
 
 #piz-pap {
@@ -88,7 +68,7 @@ li {
 }
 
 .h-buttons button {
-  border-radius: 40px;
+  border-radius: 50px;
   color: black;
 }
 
@@ -97,21 +77,16 @@ li {
   margin-top: 20px;
   color: #000;
 }
-.karibu-img {
-  margin-top: 10px;
-  margin-left: 80px;
-  margin-bottom: 130px;
-  height: 400px;
-  width: 400px;
-}
 
 .welcome {
-  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: paleturquoise;
+  text-align: center;
 }
 .menu-btn {
-  border-radius: 20px;
+  border-radius: 40px;
   margin-top: 20px;
-  color: #000;
+  color: orange;
 }
 
 figcaption {
@@ -121,7 +96,6 @@ figcaption {
 #menu {
   padding-top: 20px;
 }
-
 #order-pizza {
   color: #000;
 }
@@ -138,7 +112,7 @@ figcaption {
 }
 
 .contacts {
-  background-image: url("../images/sec/b1.jpg");
+  background-image: url("https://thumbs.dreamstime.com/b/pizza-background-advertising-website-pizza-pieces-moiety-pizza-italian-food-pizza-vector-illustration-print-web-112788362.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -232,13 +206,14 @@ h4 {
 }
 
 .pizz {
-  color: lawngreen;
+  color: orchid;
 }
 
 .menu {
   margin-top: 30px;
-  background-image: url("../images/pizza\ 5.png");
+  background-image: url("https://popmenucloud.com/hevrsokn/7f034c04-0d8d-409e-9c04-1d59e0bfe4a0");
   padding: 0;
+  background-size: cover;
 }
 
 #menu {
@@ -252,12 +227,6 @@ h4 {
 }
 
 /*Background pic*/
-.landing {
-  background-image: url("../images/pizzabg.jpeg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.7);
@@ -294,7 +263,8 @@ figure img {
 }
 
 .karibu-txt {
-  margin-top: 160px;
+  margin-top: 90px;
+  /* text-align: center; */
 }
 
 .txt {
@@ -308,13 +278,13 @@ figure img {
   font-family: 'Shadows Into Light', cursive;
 }
 
-.karibu-img {
+/* .karibu-img {
   margin-top: 10px;
   margin-left: 80px;
   margin-bottom: 130px;
   height: 400px;
   width: 400px;
-}
+} */
 
 .welcome {
   padding-top: 30px;
@@ -404,7 +374,7 @@ figure img {
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-      background: #3f51b5 !important;
+      background: orange !important;
   }
 
 }
