@@ -5,28 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizza delivery app</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
   <script src="js/scripts.js"></script>
   <script src="js/jquery-3.5.1.js"></script>
 </head>
 <body>
   <div class="div_1">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="navi">
+      <ul class="nav-items">
+        <li><a href="#menus">Menu</a></li>
+            <li><a href="#order">Orders</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </div>
+    </nav>
     <center>
       <br><br><br>
       <h1 class="harper">Welcome to Pizza-Delicatesse</h1>
-      <button class="btn_1">View Menu</button>
+      <button class="btn_1">Next</button>
     </center>
   </div>
-<div class="section">
+
+  <div class="welcome" id="welcome">
+    <br><br><br><br>
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/pizza1.jpg" alt="pizza" class="karibu-img">
+            </div>
+            <div class="col-md-6 karibu-txt">
+                <h1 class="text-center txt txt-big">Karibu <span class="pizz">Pizza </span><span class="exc">pap!</span>
+                </h1>
+                <p class="text-center txt">The best pizza you'll ever taste</p>
+                <p class="text-center txt">Order your pizza and we wil deliver it to your location.</p>
+                <p class="text-center txt">Your satisfaction is our greatest priority .</p>
+
+                <a href="#menus">
+                    <button class="btn bg-info mx-auto d-block menu-btn">Menu</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="section">
   <h1 class="pizza">Our varieties</h1>
   <div class="box">
     <div class="text">
-      <h2 class="title">pizza 1</h2>
+      <h2 class="title">pizza-1</h2>
       <p>
-        <span class="main">large</span><br>
+        <span class="main_course"></span><br>
         <span class="content1">small</span><br>
         <span class="content2">medium</span><br>
-        <span class="content3"></span><br>
+        <span class="content3">large</span><br>
+        <p class="price">ksh105</p>
        </p>
     </div>
     <div class="image"></div>
@@ -34,7 +66,8 @@
   <center>
     <button class="btn" onclick="myFunction()">Next</button>
   </center>
-</div>
+</div> -->
+<!-- <script src="js/jquery-3.5.1.js"></script> -->
 </body>
 </html>
     
