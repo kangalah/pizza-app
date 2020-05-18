@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
- .div_1{
+ .landing{
   background-image: url("../images/pizzabg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  overflow: hidden;
-  height: 90vh;
-   padding-bottom: 10%;
+  /* overflow: hidden; */
+  height: 100vh;
+   
+}
+.one{
+  text-align: center;
+  font-weight: bolder;
+  color: orange;
+  font-family: 'Love Ya Like A Sister', cursive;
+  /* padding-bottom:  %; */
 }
 h1{
   color: deepskyblue;
-  padding-top: 10%;
+  padding-top: 1%;
 }
 .navi {
   float: right;
@@ -28,28 +35,10 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  color: #ffffff;
-   overflow-x: hidden; 
+  /* color: #ffffff; */
+   
 }
  
-
-.div_1 .btn_1{
-  margin-top: 90px;
-  width: 200px;
-  height: 60px;
-  border-radius: 50px;
-  font-size: 33px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background: orange;
-  background-size: 30%;
-  color: black;
-  border: 2px solid black;
-}
-.div_1 .btn_1:hover{
-  background-position: right;
-  cursor: pointer;
-  color: black;
-}
 .exc {
   color: gold;
 } 
@@ -270,8 +259,10 @@ figure img {
 }
 
 .karibu-txt {
-  margin-top: 90px;
-  /* text-align: center; */
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
+  
 }
 
 .txt {
@@ -299,11 +290,10 @@ figure img {
   margin: 60px 15px 0 15px;
 }
 
-/* Collapse nav start*/
+
 .top-nav-collapse {
   background-color: #3f51b5 !important;
 }
-
 .navbar:not(.top-nav-collapse) {
   background: transparent !important;
 }
@@ -374,7 +364,7 @@ figure img {
       background: orange !important;
   }
 
-} 
+}
 
 
  
