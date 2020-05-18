@@ -5,7 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  /* overflow: hidden; */
+  
   height: 100vh;
    
 }
@@ -13,8 +13,11 @@
   text-align: center;
   font-weight: bolder;
   color: orange;
-  font-family: 'Love Ya Like A Sister', cursive;
-  /* padding-bottom:  %; */
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+ 
 }
 h1{
   color: deepskyblue;
@@ -35,7 +38,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  /* color: #ffffff; */
+  
    
 }
  
@@ -169,6 +172,11 @@ input[type="email"] {
 .deliver, .delivernot {
   margin: 10px;
 }
+h3{
+  color: darkturquoise;
+  text-align: center;
+  margin-left: 12em;
+}
 
 h4 {
   margin: 0;
@@ -208,7 +216,15 @@ h4 {
   padding: 0;
   background-size: cover;
 }
-
+#delivery{
+  background-image: url("https://popmenucloud.com/hevrsokn/7f034c04-0d8d-409e-9c04-1d59e0bfe4a0");
+  background-size: cover;
+   margin-left:12em; 
+  /* margin-right:8em;
+  margin-bottom:8em; */
+   /* width: 20em; */
+  text-align: center; 
+}
 #menu {
   font-family: 'Love Ya Like A Sister', cursive;
 }
@@ -218,8 +234,6 @@ h4 {
   width: inherit;
   background-color: rgba(0, 0, 0, 0.7); */
 }
-
-/*Background pic */
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.7);
