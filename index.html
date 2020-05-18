@@ -6,12 +6,10 @@
   <title>Pizza delivery app</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <!-- <script src="js/scripts.js"></script>
-  <script src="js/jquery-3.5.1.js"></script> -->
+  
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <!-- <h1 id="piz-pap" class="">Pi<span id="spantext">zz</span>a pap!</h1> -->
         <div class="navi">
             <ul class="nav-items">
                 <li><a href="#menus">Menu</a></li>
@@ -149,7 +147,7 @@
 
     <div class="cdata-overlay">
         <div class="customerdata row">
-            <div class="col-sm-3"></div>
+            <div class="col-sm-6 offset-sm-3"></div>
             <form action="" class="form-group col-sm-6 data">
                 <input type="text" class="form-control cdata" placeholder="Enter your Name:">
                 <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
@@ -157,7 +155,7 @@
                 <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
             </form>
 
-            <div class="col-sm-3"></div>
+            <div class="col-sm-6 offset-sm-3"></div>
         </div>
     </div>
     <div class="d-block mx-auto text-center">
@@ -165,20 +163,20 @@
         <button class='delivernot'>Pick Up</button>
     </div>
 </div>
+<div class="form-group row"
 <div class="col-md-6">
     <div id="formlocation">
-        <h3>For delivery services,enter your location details below</h3>
+        <h3 class="text-center" id="summary">For delivery services,enter your location details below</h3>
         <form id="delivery">
             <label for="name">Name</label>
             <input class="form-control" type="text" name="" id="name" required="required">
             <label for="location">Location</label>
             <input class="form-control" type="text" id="location" placeholder="location...">
             <label for="phonenumber">Phone Number</label>
-            <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
+            <input class="form-control" type="tel" placeholder="07........" id="number"> <br>
             <button type="submit" name="button" id="submit">submit</button>
         </form>
     </div>
-</div>
 </div>
 
 <div class="contacts">
