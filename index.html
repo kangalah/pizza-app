@@ -148,11 +148,11 @@
     <div class="cdata-overlay">
         <div class="customerdata row">
             <div class="col-sm-6 offset-sm-3"></div>
-            <form action="" class="form-group col-sm-6 data">
-                <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+            <form action="" class="form-group col-sm-6 data" id="delivery">
+                <input type="text" class="form-control cdata" id="name" placeholder="Enter your Name:">
+                <input type="text" class="form-control cdata" id="number" placeholder="Enter your phone number: ">
+                <input type="text" class="form-control cdata" id="location" placeholder="Enter the location: ">
+                <button type="submit" name="button" class="btn bg-info text-center d-block mx-auto go">submit</button>
             </form>
 
             <div class="col-sm-6 offset-sm-3"></div>
@@ -163,21 +163,7 @@
         <button class='delivernot'>Pick Up</button>
     </div>
 </div>
-<div class="form-group row"
-<div class="col-md-6">
-    <div id="formlocation">
-        <h3 class="text-center" id="summary">For delivery services,enter your location details below</h3>
-        <form id="delivery">
-            <label for="name">Name</label>
-            <input class="form-control" type="text" name="" id="name" required="required">
-            <label for="location">Location</label>
-            <input class="form-control" type="text" id="location" placeholder="location...">
-            <label for="phonenumber">Phone Number</label>
-            <input class="form-control" type="tel" placeholder="07........" id="number"> <br>
-            <button type="submit" name="button" id="submit">submit</button>
-        </form>
-    </div>
-</div>
+
 
 <div class="contacts">
     <div class="contact-overlay">
