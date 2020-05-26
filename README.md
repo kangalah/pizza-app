@@ -1,13 +1,13 @@
-<h2>Title</h2>
+# Title
 PIZZA DELICATESSE.
 
-<h2>Author</h2>
+# Author 
 Joan Nanjala.
 
-<h2>Description</h2>
+# Description 
 This is a project to recreate Delani studio which is a fictional studio.
 
-<h2>Technologies used</h2>
+# Technologies used 
 
 1.Html
 2.Bootstrap
@@ -15,25 +15,31 @@ This is a project to recreate Delani studio which is a fictional studio.
 4.Javascript
 5.Jquery.
 
-<h2>Setup Instructions</h2>
+# Setup Instructions
 
--clone the repository on your local machine.
--cd onto the directory you cloned onto.
--Open with your editor.
--Make any necessary changes.
+1.clone the repository on your local machine.
 
-<h2>Behavior Driven Development</h2>
+2.cd onto the directory you cloned onto.
+
+3.Open with your editor.
+
+4.Make any necessary changes.
+
+# Behavior Driven Development
 
 1.Under what we do, clicking on the image will toggle a paragraph explaining about the service.
+
 2.Hovering over each image will show a white box with the name of the image.
+
 3.Upon entering your details and message in the contact-us form, the data will be sent to mailchimp and you will receive a confirmation message thanking you for contacting them.
+
 4.In case, submit form is entered without any values in the form, an alert message will pop-up telling you to put in valid information.
 
-<h2>Support and contact details</h2>
+# Support and contact details
 
 contact me  *nanjalajoannyongesa@gmail.com*
 
-<h2>License</h2>
+# License
 MIT License
 
 Copyright (c) 2020 Joan Nanjala
