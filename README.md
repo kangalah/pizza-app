@@ -10,9 +10,13 @@ This is a project to recreate Delani studio which is a fictional studio.
 # Technologies used 
 
 1.Html
+
 2.Bootstrap
+
 3.Css
+
 4.Javascript
+
 5.Jquery.
 
 # Setup Instructions
